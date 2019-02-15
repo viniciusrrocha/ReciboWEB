@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Reviva Fotografia') }}</title>
+    <title>Reviva Fotografia</title>
     <style>
     html, body {
                 background-image: url("https://culturams.com.br/wp-content/uploads/2015/10/Photography-Camera-Lens-Photo-Wallpaper1.jpg");
