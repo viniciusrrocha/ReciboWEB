@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Reviva Fotografia') }}</title>
     <style>
     html, body {
                 background-image: url("https://culturams.com.br/wp-content/uploads/2015/10/Photography-Camera-Lens-Photo-Wallpaper1.jpg");
@@ -84,7 +84,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        Reviva Fotografia
                     </a>
                 </div>
 
@@ -97,7 +97,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
-                        @guest
+                        {{-- @guest
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
                         @else
@@ -120,7 +120,7 @@
                                     </li>
                                 </ul>
                             </li>
-                        @endguest
+                        @endguest --}}
                     </ul>
                 </div>
             </div>

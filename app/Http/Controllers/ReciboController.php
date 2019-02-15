@@ -16,8 +16,7 @@ class ReciboController extends Controller
     {
         
         $dataExtenso = $this->qualData($request->tData);
-        $pdf = PDF::loadView('recibo.impressao', compact(['request', 'dataExtenso']));
-        return $pdf->stream('invoice.pdf');   
+        return PDF::loadView('recibo.impressao', compact(['request', 'dataExtenso']))->setPaper('a4', 'portrait')->stream('invoice.pdf');   
     }
 
     public function qualData(string $data = null) : string

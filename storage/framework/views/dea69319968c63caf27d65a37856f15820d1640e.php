@@ -228,8 +228,9 @@
 </head>
 
 <body class="c7">
-    <p class="c3"><span style="overflow: hidden; display: inline-block; margin: auto; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 213.50px; height: 213.50px;"><img
-                alt="" src="logo/logo.png" style="width: 213.50px; height: 213.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+    <p class="c3">
+        <span style="overflow: hidden; display: inline-block; margin: auto; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 213.50px; height: 213.50px;">
+            <img alt="" src="logo/logo.png" style="width: 213.50px; height: 213.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title=""></span></p>
     <p class="c2"><span class="c0"></span></p>
     <p class="c5"><span class="c9">R$ <?php echo e($request['tValor']); ?> </span></p>

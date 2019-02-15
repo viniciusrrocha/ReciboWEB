@@ -914,3 +914,22 @@
 #36 /home/comtecnologia/Projetos/ReciboOnline/server.php(21): require_once('/home/comtecnol...')
 #37 {main}
 "} 
+[2019-02-14 14:51:39] production.ERROR: Dotenv values containing spaces must be surrounded by quotes. {"exception":"[object] (Dotenv\\Exception\\InvalidFileException(code: 0): Dotenv values containing spaces must be surrounded by quotes. at /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Parser.php:120)
+[stacktrace]
+#0 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Parser.php(43): Dotenv\\Parser::parseUnquotedValue('Reviva Fotograf...')
+#1 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Loader.php(237): Dotenv\\Parser::parseValue('Reviva Fotograf...')
+#2 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Loader.php(151): Dotenv\\Loader->sanitiseVariableValue('APP_NAME', 'Reviva Fotograf...')
+#3 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Loader.php(128): Dotenv\\Loader->processFilters('APP_NAME', 'Reviva Fotograf...')
+#4 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Loader.php(323): Dotenv\\Loader->normaliseEnvironmentVariable('APP_NAME=Reviva...', NULL)
+#5 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Loader.php(89): Dotenv\\Loader->setEnvironmentVariable('APP_NAME=Reviva...')
+#6 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Dotenv.php(114): Dotenv\\Loader->load()
+#7 /home/comtecnologia/Projetos/ReciboOnline/vendor/vlucas/phpdotenv/src/Dotenv.php(52): Dotenv\\Dotenv->loadData()
+#8 /home/comtecnologia/Projetos/ReciboOnline/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadEnvironmentVariables.php(27): Dotenv\\Dotenv->load()
+#9 /home/comtecnologia/Projetos/ReciboOnline/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadEnvironmentVariables->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 /home/comtecnologia/Projetos/ReciboOnline/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 /home/comtecnologia/Projetos/ReciboOnline/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#12 /home/comtecnologia/Projetos/ReciboOnline/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 /home/comtecnologia/Projetos/ReciboOnline/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 /home/comtecnologia/Projetos/ReciboOnline/server.php(21): require_once('/home/comtecnol...')
+#15 {main}
+"} 

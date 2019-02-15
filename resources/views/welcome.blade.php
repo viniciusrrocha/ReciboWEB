@@ -80,7 +80,7 @@
         </div>
             <div class="content">
                 <div class="title m-b-md">
-                    Jonas Fotografia
+                    Reviva Fotografia
                 </div>
 	    </div>
         </div>

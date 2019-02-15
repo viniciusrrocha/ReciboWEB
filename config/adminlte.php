@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Jonas Fotografia',
+    'title' => 'Reviva Fotografia',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Jonas</b> Fotografia',
+    'logo' => '<b>Reviva</b> Fotografia',
 
-    'logo_mini' => '<b>J</b>PH',
+    'logo_mini' => '<b>R</b>F',
 
     /*
     |--------------------------------------------------------------------------
