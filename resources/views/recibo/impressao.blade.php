@@ -235,7 +235,7 @@
     </div>
     <p class="c4">
       <span class="c12"
-        >Recebemos a import&acirc;ncia de R$ {{ $request['tValor'] }} do ({{ $valorExtenso }})
+        >Recebemos a import&acirc;ncia de R$ {{ $request['tValor'] }} ({{ $valorExtenso }}) do
         Sr.(a): {{ $request['tPessoa'] }}, Ref.:
         {{ $request['tDescricao'] }}.</span
       >
