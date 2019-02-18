@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
-    <title><?php echo e(config('app.name', 'Reviva Fotografia')); ?></title>
+    <title>Reviva Fotografia</title>
     <style>
     html, body {
                 background-image: url("https://culturams.com.br/wp-content/uploads/2015/10/Photography-Camera-Lens-Photo-Wallpaper1.jpg");
